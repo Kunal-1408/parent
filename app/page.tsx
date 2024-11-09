@@ -30,7 +30,7 @@ export default function Component() {
             We are here to help you with your business. Get in touch with us and we will get back to you as soon as possible.
           </p>
           <Link
-            className="inline-flex h-9 items-center rounded-md bg-zinc-700 px-6 text-sm font-medium text-zinc-100 hover:bg-zinc-600 transition-colors"
+           className="text-white items-center justify-center bg-gradient-to-b from-[#464d55] to-[#25292e] text-base px-6 transition duration-150 shadow-[0_10px_20px_rgba(0,_0,_0,_.1),0_3px_6px_rgba(0,_0,_0,_.05)] hover:shadow-[rgba(0,_1,_0,_.2)_0_2px_8px] active:outline-none hover:opacity-80 rounded-2xl py-2  mb-4"
             href="#"
           >
             Contact Us

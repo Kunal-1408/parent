@@ -30,7 +30,7 @@ export const ContainerScroll = React.forwardRef<
     return isMobile ? [0.7, 0.9] : [1.05, 1];
   };
 
-  const rotate = useTransform(scrollYProgress, [0, 1], [45, 0]);
+  const rotate = useTransform(scrollYProgress, [0, 1], [50, 0]);
   const scale = useTransform(scrollYProgress, [0, 1], scaleDimensions());
   const translate = useTransform(scrollYProgress, [0, 1], [0, -100]);
 

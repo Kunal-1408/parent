@@ -61,7 +61,7 @@ export default function Component() {
               className={`h-full relative overflow-hidden transition-all duration-300 hover:scale-105 cursor-pointer
                 ${
                   selectedCard === index
-                    ? 'bg-orange-100 shadow-lg border-orange-200'
+                    ? 'bg-orange-200 shadow-lg border-orange-200'
                     : 'bg-white hover:bg-orange-50 border-transparent hover:border-orange-100'
                 }
                 min-h-[600px] flex flex-col rounded-3xl`}

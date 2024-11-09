@@ -40,9 +40,9 @@ export default function Component() {
       />
       <div className="max-w-6xl mx-auto space-y-16 relative z-10">
         {/* Hero Section */}
-        <div className="text-center space-y-4">
+        <div className="text-center mt-10 space-y-4">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
-            Your Marketing need at one place
+            Your Marketing needs at one place
           </h1>
           <p className="text-lg text-gray-400 max-w-3xl mx-auto">
             Imagine Google with 100 more features. That's Quite Good. Even we don't like it.

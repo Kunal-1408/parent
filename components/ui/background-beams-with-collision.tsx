@@ -42,7 +42,7 @@ export const BackgroundBeamsWithCollision = ({
     { initialX: 1200, translateX: 3200, rotate: -54, duration: 9, repeatDelay: 8, delay: 2, className: "h-12" },
     { initialX: 1100, translateX: 3200, rotate: -52, duration: 12, repeatDelay: 4, delay: 2, className: "h-12" },
     { initialX: 1500, translateX: 3200, rotate: -55, duration: 10, repeatDelay: 2, delay: 2, className: "h-16" },
-    { initialX: -70, initialY: 280, translateX: 3000, rotate: -60, duration: 14, repeatDelay: 8, delay: 5, className: "h-18" }
+     { initialX: -70, initialY: 280, translateX: 3000, rotate: -60, duration: 14, repeatDelay: 8, delay: 5, className: "h-18" }
   ];
 
   return (
