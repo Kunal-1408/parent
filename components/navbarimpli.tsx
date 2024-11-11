@@ -9,7 +9,7 @@ export default function Navbar({ className }: { className?: string }) {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
 
   const menuItems = [
-    { href: "#features", label: "Features" },
+    { href: "#features", label: "Explore" },
     { href: "#testimonials", label: "Testimonials" },
     
     { href: "#blogs", label: "Blogs" },
@@ -38,9 +38,9 @@ export default function Navbar({ className }: { className?: string }) {
                 {item.label}
               </Link>
             ))}
-            <button  className="bg-zinc-800 text-white hover:bg-zinc-700 h-11 rounded-md px-8">
+            {/* <button  className="bg-zinc-800 text-white hover:bg-zinc-700 h-11 rounded-md px-8">
               Sign Up
-            </button>
+            </button> */}
           </div>
 
           {hoveredIndex !== null && (

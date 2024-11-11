@@ -15,10 +15,10 @@ export default function Component() {
         <Cardsa/>
       </div>
 
-      <div>
+      {/* <div>
           <Testimonial/>
 
-      </div>
+      </div> */}
       <div>
         <Brand/>
       </div>
