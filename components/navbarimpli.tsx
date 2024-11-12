@@ -38,9 +38,6 @@ export default function Navbar({ className }: { className?: string }) {
                 {item.label}
               </Link>
             ))}
-            {/* <button  className="bg-zinc-800 text-white hover:bg-zinc-700 h-11 rounded-md px-8">
-              Sign Up
-            </button> */}
           </div>
 
           {hoveredIndex !== null && (
