@@ -35,7 +35,7 @@ export default function Component() {
       <div 
         className="pointer-events-none absolute inset-0 z-30 transition-opacity duration-300"
         style={{
-          background: `radial-gradient(600px at ${cursorPosition.x}px ${cursorPosition.y}px, rgba(255, 140, 50, 0.15), transparent 80%)`,
+          background: `radial-gradient(600px at ${cursorPosition.x}px ${cursorPosition.y}px, rgba(10, 95, 158, 0.15), transparent 80%)`,
         }}
       />
       <div className="max-w-6xl mx-auto space-y-16 relative z-10">
@@ -53,10 +53,10 @@ export default function Component() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12 md:gap-16 lg:gap-20 pt-8">
           {/* Feature 1 */}
           <div className="space-y-4">
-            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-orange-400 to-orange-600 p-[2px]  ">
+            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-blue-400 to-blue-600 p-[2px]  ">
               <div className="w-full h-full rounded-full bg-white flex items-center justify-center relative overflow-hidden">
-                <Activity className="w-6 h-6 text-orange-500" />
-                <div className="absolute inset-0 bg-orange-500 opacity-20 blur-md" />
+                <Activity className="w-6 h-6 text-blue-500" />
+                <div className="absolute inset-0 bg-blue-500 opacity-20 blur-md" />
               </div>
             </div>
             <h2 className="text-xl font-semibold">Amazing Analytics you will never ever use.</h2>
@@ -68,10 +68,10 @@ export default function Component() {
 
           {/* Feature 2 */}
           <div className="space-y-4">
-            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-orange-400 to-orange-600 p-[2px]  ">
+            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-blue-400 to-blue-600 p-[2px]  ">
               <div className="w-full h-full rounded-full bg-white flex items-center justify-center relative overflow-hidden">
-                <BarChart3 className="w-6 h-6 text-orange-500" />
-                <div className="absolute inset-0 bg-orange-500 opacity-20 blur-md" />
+                <BarChart3 className="w-6 h-6 text-blue-500" />
+                <div className="absolute inset-0 bg-blue-500 opacity-20 blur-md" />
               </div>
             </div>
             <h2 className="text-xl font-semibold">Charts, graphs and everything at your fingertips</h2>
@@ -82,10 +82,10 @@ export default function Component() {
 
           {/* Feature 3 */}
           <div className="space-y-4">
-            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-orange-400 to-orange-600 p-[2px]  ">
+            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-blue-400 to-blue-600 p-[2px]  ">
               <div className="w-full h-full rounded-full bg-white flex items-center justify-center relative overflow-hidden">
-                <Users className="w-6 h-6 text-orange-500" />
-                <div className="absolute inset-0 bg-orange-500 opacity-20 blur-md" />
+                <Users className="w-6 h-6 text-blue-500" />
+                <div className="absolute inset-0 bg-blue-500 opacity-20 blur-md" />
               </div>
             </div>
             <h2 className="text-xl font-semibold">Create teams. Invite your friends and families.</h2>
@@ -96,10 +96,10 @@ export default function Component() {
 
           {/* Feature 4 */}
           <div className="space-y-4">
-            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-orange-400 to-orange-600 p-[2px]  ">
+            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-blue-400 to-blue-600 p-[2px]  ">
               <div className="w-full h-full rounded-full bg-white flex items-center justify-center relative overflow-hidden">
-                <Database className="w-6 h-6 text-orange-500" />
-                <div className="absolute inset-0 bg-orange-500 opacity-20 blur-md" />
+                <Database className="w-6 h-6 text-blue-500" />
+                <div className="absolute inset-0 bg-blue-500 opacity-20 blur-md" />
               </div>
             </div>
             <h2 className="text-xl font-semibold">Self host your analytics. Own your mistakes</h2>
@@ -110,10 +110,10 @@ export default function Component() {
 
           {/* Feature 5 */}
           <div className="space-y-4">
-            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-orange-400 to-orange-600 p-[2px]  ">
+            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-blue-400 to-blue-600 p-[2px]  ">
               <div className="w-full h-full rounded-full bg-white flex items-center justify-center relative overflow-hidden">
-                <Shield className="w-6 h-6 text-orange-500" />
-                <div className="absolute inset-0 bg-orange-500 opacity-20 blur-md" />
+                <Shield className="w-6 h-6 text-blue-500" />
+                <div className="absolute inset-0 bg-blue-500 opacity-20 blur-md" />
               </div>
             </div>
             <h2 className="text-xl font-semibold">We don't track you. We don't sell your data.</h2>
@@ -124,10 +124,10 @@ export default function Component() {
 
           {/* Feature 6 */}
           <div className="space-y-4">
-            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-orange-400 to-orange-600 p-[2px]  ">
+            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-blue-400 to-blue-600 p-[2px]  ">
               <div className="w-full h-full rounded-full bg-white flex items-center justify-center relative overflow-hidden">
-                <Moon className="w-6 h-6 text-orange-500" />
-                <div className="absolute inset-0 bg-orange-500 opacity-20 blur-md" />
+                <Moon className="w-6 h-6 text-blue-500" />
+                <div className="absolute inset-0 bg-blue-500 opacity-20 blur-md" />
               </div>
             </div>
             <h2 className="text-xl font-semibold">Lastly, we have support for dark mode. Yay!</h2>

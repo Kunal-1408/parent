@@ -14,24 +14,6 @@ export const BackgroundBeamsWithCollision = ({
 }) => {
   const parentRef = useRef<HTMLDivElement>(null);
 
-  // const beams = [
-  //   { initialX: 0, translateX: 2000, rotate: -50, duration: 8, repeatDelay: 6, delay: 1, className: "h-6" },
-  //   { initialX: 60,  translateX: 2200, rotate: -52, duration: 9, repeatDelay: 7, delay: 2, className: "h-8" },
-  //   { initialX: 80,  translateX: 2200, rotate: -54, duration: 10, repeatDelay: 8, delay: 3, className: "h-10" },
-  //   { initialX: 100, translateX: 2300, rotate: -56, duration: 11, repeatDelay: 6, delay: 4, className: "h-12" },
-  //   { initialX: 120, translateX: 2400, rotate: -53, duration: 12, repeatDelay: 7, delay: 4.5, className: "h-12" },
-  //   { initialX: 160, translateX: 2800, rotate: -52, duration: 13, repeatDelay: 5, delay: 1, className: "h-14" },
-  //   { initialX: 180, translateX: 2400, rotate: -48, duration: 7, repeatDelay: 4, delay: 2, className: "h-6" },
-  //   { initialX: 200, translateX: 1900, rotate: -42, duration: 8, repeatDelay: 5, delay: 3, className: "h-8" },
-  //   { initialX: 210, translateX: 2000, rotate: -50, duration: 9, repeatDelay: 6, delay: 2, className: "h-8" },
-  //   { initialX: 220, translateX: 2550, rotate: -46, duration: 10, repeatDelay: 7, delay: 1, className: "h-10" },
-  //   { initialX: -10, initialY: 300, translateX: 3600, rotate: -48, duration: 11, repeatDelay: 8, delay: 3.5, className: "h-12" },
-  //   { initialX: -20, initialY: 350, translateX: 3800, rotate: -50, duration: 12, repeatDelay: 6, delay: 2.5, className: "h-12" },
-  //   { initialX: 41, translateX: 1700, rotate: -52, duration: 13, repeatDelay: 5, delay: 2, className: "h-14" },
-  //   { initialX: -60, initialY: 100, translateX: 2900, rotate: -56, duration: 12, repeatDelay: 6, delay: 4, className: "h-16" },
-  //   { initialX: -65, initialY: 200, translateX: 2600, rotate: -54, duration: 13, repeatDelay: 7, delay: 3.5, className: "h-18" },
-  //   { initialX: -70, initialY: 280, translateX: 3000, rotate: -60, duration: 14, repeatDelay: 8, delay: 5, className: "h-18" }
-  // ];
   const beams = [
     { initialX: -300, translateX: 2200, rotate: -50, duration: 12, repeatDelay: 5, delay: 1, className: "h-6" },
     { initialX: 0, translateX: 2000, rotate: -50, duration: 8, repeatDelay: 6, delay: 1, className: "h-6" },
@@ -189,7 +171,7 @@ const CollisionMechanism = React.forwardRef<
           repeatDelay: beamOptions.repeatDelay || 0,
         }}
         className={cn(
-          "absolute left-0 top-0 m-auto h-14 w-px rounded-full bg-gradient-to-b from-orange-300 via-orange-500 to-orange-700",
+          "absolute left-0 top-0 m-auto h-14 w-px rounded-full bg-gradient-to-b from-blue-300 via-blue-500 to-blue-700",
           beamOptions.className
         )}
       />
@@ -228,7 +210,7 @@ const Explosion = ({ ...props }: React.HTMLProps<HTMLDivElement>) => {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         transition={{ duration: 1.5, ease: "easeOut" }}
-        className="absolute -inset-x-10 top-0 m-auto h-2 w-10 rounded-full bg-gradient-to-r from-transparent via-orange-500 to-transparent blur-sm"
+        className="absolute -inset-x-10 top-0 m-auto h-2 w-10 rounded-full bg-gradient-to-r from-transparent via-blue-500 to-transparent blur-sm"
       ></motion.div>
       {spans.map((span) => (
         <motion.span
@@ -240,7 +222,7 @@ const Explosion = ({ ...props }: React.HTMLProps<HTMLDivElement>) => {
             opacity: 0,
           }}
           transition={{ duration: Math.random() * 1.5 + 0.5, ease: "easeOut" }}
-          className="absolute h-1 w-1 rounded-full bg-gradient-to-b from-orange-500 to-rose-500"
+          className="absolute h-1 w-1 rounded-full bg-gradient-to-b from-blue-500 to-rose-500"
         />
       ))}
     </div>

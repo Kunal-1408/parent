@@ -10,19 +10,19 @@ export default function Component() {
       <div>
           <Hero/>
       </div>
-
+{/* 
       <div>
         <Cardsa/>
-      </div>
+      </div> */}
 
       {/* <div>
           <Testimonial/>
 
       </div> */}
-      <div>
+      <div className="">
         <Brand/>
       </div>
-      <div className="bg-zinc-800 rounded-2xl p-8 mb-8 text-center shadow-lg max-w-7xl my-12 mx-auto">
+      {/* <div className="bg-zinc-800 rounded-2xl p-8 mb-8 text-center shadow-lg max-w-7xl my-8 mx-auto">
           <h2 className="text-2xl py-8 font-bold tracking-tighter text-white sm:text-3xl mb-3">
             So what are you waiting for?
           </h2>
@@ -35,7 +35,7 @@ export default function Component() {
           >
             Contact Us
           </Link>
-        </div>
+        </div> */}
       
 
 

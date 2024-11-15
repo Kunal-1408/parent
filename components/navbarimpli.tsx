@@ -11,8 +11,9 @@ export default function Navbar({ className }: { className?: string }) {
   const menuItems = [
     { href: "#features", label: "Explore" },
     { href: "#testimonials", label: "Testimonials" },
+    { href: "#pricing", label: "Brands" },
     
-    { href: "#blogs", label: "Blogs" },
+    { href: "#blogs", label: "Porfolio" },
   ]
 
   return (
@@ -20,10 +21,10 @@ export default function Navbar({ className }: { className?: string }) {
       <div className="container flex items-center justify-center py-4">
         <nav className="flex items-center gap-8 px-8 py-3 bg-zinc-900 rounded-full relative">
           <Link href="/" className="flex items-center gap-2">
-            <div className="size-8 rounded bg-orange-500 flex items-center justify-center">
+            <div className="size-8 rounded bg-teal-500 flex items-center justify-center">
               <ChevronDown className="size-5 text-white" />
             </div>
-            <span className="text-white font-medium text-lg">Quite Good</span>
+            <span className="text-white font-medium text-lg">Adsversify</span>
           </Link>
           
           <div className="flex items-center gap-8">

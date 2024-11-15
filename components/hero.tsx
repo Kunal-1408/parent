@@ -8,7 +8,7 @@ export default function Hero() {
   const containerRef = useRef<HTMLDivElement>(null);
 
   return (
-    <section className="relative w-full overflow-hidden mt-12">
+    <section className="relative w-full overflow-hidden ">
       <div 
         className="absolute inset-0 z-0"
         style={{
@@ -25,12 +25,16 @@ export default function Hero() {
                 ref={containerRef}
                 titleComponent={
                   <>
+                    <div className='items-center'>
+                    <img src="/Logo.png" alt='' height={450} width={450}  className='mx-auto'/>
+                    </div>
+                  
                     <h1 className="text-6xl font-bold text-gray-800">
-                      Take your buisness to new horizons
+                      Take your Buisness to New Horizons
                     </h1>
-                    <h1 className="text-6xl font-bold text-gray-800">
-                      With <span className='text-orange-300'>Quite Good</span>
-                    </h1>
+                    {/* <h1 className="text-6xl font-bold text-gray-800">
+                      with <span className='text-blue-300'>Adsversify</span>
+                    </h1> */}
                     <p className="mt-7 font-semibold text-xl text-gray-600">
                       Get the best beam tracking services in the world with our state-of-the-art, cutting-edge beam detection technology.
                     </p>
