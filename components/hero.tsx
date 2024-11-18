@@ -30,7 +30,7 @@ export default function Hero() {
                     </div>
                   
                     <h1 className="text-6xl font-bold text-gray-800">
-                      Take your Buisness to New Horizons
+                      Take your Business to New Horizons
                     </h1>
                     {/* <h1 className="text-6xl font-bold text-gray-800">
                       with <span className='text-blue-300'>Adsversify</span>
