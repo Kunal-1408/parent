@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="flex flex-col items-center space-y-6">
           <div className="flex items-center space-x-2">
             {/* <div className="h-8 w-8 my-5 rounded-md bg-blue-500" /> */}
-            <Image src="/AV Social-01.jpg" alt="logo" width={40} height={40} className="rounded-md" />
+            {/* <Image src="/AV Social-01.jpg" alt="logo" width={40} height={40} className="rounded-md" /> */}
             <span className="text-xl font-bold">Adsversify Marketing Private Limited.</span>
           </div>
           {/* <nav className="flex gap-6">
